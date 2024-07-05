@@ -173,29 +173,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer",
+    desc: "Assisted in the development of a web-based platform using React.js, Next.js  enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Lead Mobile App Dev",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native, Kotlin , Java.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Led the development of a mobile app for a client, managing the entire process from initial concept to deployment on app stores. Additionally, built a web apps for another client, overseeing all stages from initial concept to launch ",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Backend Developer",
+    desc: "Developed and maintained user-facing features using modern backend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
