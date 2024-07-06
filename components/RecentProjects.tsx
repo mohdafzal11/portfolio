@@ -65,7 +65,11 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center "
+                  onClick={()=>{
+                       window.open(item.link, "_blank");
+                  }}
+                >
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check Live Site
                   </p>

@@ -72,37 +72,40 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "MOYE-Meme Coin",
+    des: "Moye is an Indian frog who first gained fame through viral memes",
+    img: "/moyo.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://moyerevamped-sooty.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Dongo.ai-Web3 Research Assistant",
+    des: "Tailored to deliver in-depth analysis, real-time market forecasts, and seamless data integration, Dongo AI elevates your strategic decision-making, placing institutional-grade insights within reach.",
+    img: "/dongo.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://dongo-ai.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Claimables-AirDrop Finder",
+    des: "Claimables is a cutting-edge application designed to streamline and enhance the discovery of cryptocurrency airdrops. This innovative platform provides users with a comprehensive, real-time database of ongoing and upcoming airdrops across various blockchain networks. Whether you are a seasoned crypto enthusiast or a beginner, Claimables ensures you never miss an opportunity to earn free tokens.",
+    img: "/claimables.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://claimfinal.vercel.app/",
   },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+  //   {
+  //     id: 4,
+  //     title: "Animated Apple Iphone 3D Website",
+  //     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+  //     img: "/p4.svg",
+  //     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //     link: "/ui.apple.com",
+  //   },
 ];
+
+
+
 
 export const testimonials = [
   {
