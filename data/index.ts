@@ -90,20 +90,20 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Claimables-AirDrop Finder",
-    des: "Claimables is a cutting-edge application designed to streamline and enhance the discovery of cryptocurrency airdrops. This innovative platform provides users with a comprehensive, real-time database of ongoing and upcoming airdrops across various blockchain networks. Whether you are a seasoned crypto enthusiast or a beginner, Claimables ensures you never miss an opportunity to earn free tokens.",
-    img: "/claimables.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://claimfinal.vercel.app/",
+    title: "The Saviour - Emergency Toolkit",
+    des: "The Saviour - Emergency Toolkit is a comprehensive mobile application that provides various emergency features to ensure user safety and security. It offers both online and offline SOS modes, a share journey feature, emergency dialer, rapid SOS activation, manage guardians, share address functionality, and a 'Make India Safe' feature where users can contribute by submitting reviews about their area. The app aims to make the country safer by providing essential emergency tools and enabling users to share their experiences.",
+    img: "/saviour1.webp",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/java.svg", "./xml.jpeg"],
+    link: "https://github.com/Hackyabhay007/THE_SAVIOUR_REMASTERED?tab=readme-ov-file",
   },
-  //   {
-  //     id: 4,
-  //     title: "Animated Apple Iphone 3D Website",
-  //     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //     img: "/p4.svg",
-  //     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //     link: "/ui.apple.com",
-  //   },
+  {
+    id: 4,
+    title: " Driving Companion: Enhancing Safe and Energetic Driving",
+    des: "Introducing the Driving Companion app - your ultimate travel partner designed to promote safe driving practices, combat drowsiness, provide real-time alerts, and offer an energetic music experience. With a range of features tailored for your safety and enjoyment, this app aims to create a seamless and engaging driving experience..",
+    img: "/p4.webp",
+    iconLists: ["/java.svg", "/tail.svg", "/ts.svg", "/xml.jpeg", "/gsap.svg"],
+    link: "https://github.com/Hackyabhay007/DRIVING_COMPANION",
+  },
 ];
 
 
@@ -210,16 +210,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://https//github.com/Hackyabhay007",
+    link: "https://github.com/Hackyabhay007",
   },
   {
     id: 2,
     img: "/twit.svg",
-    link:""
+    link: "",
   },
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.https//www.linkedin.com/in/hackyabhay/",
+    link: "https://www.https//www.linkedin.com/in/hackyabhay",
   },
 ];
