@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { IoCopyOutline, IoMailOpen } from "react-icons/io5";
+import { skills } from "@/data";
+import { SkillsMovingCard } from "./SkillsMovingCard";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
 
 import { cn } from "@/lib/utils";
-
 
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
@@ -52,8 +53,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript" ];
-  const rightLists = ["VueJS", "Java Kotlin", "GraphQL"];
+  const leftLists = ["ReactJS", "Express", "Typescript"];
+  const rightLists = ["Java", "Kotlin", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
 
@@ -72,12 +73,10 @@ export const BentoGridItem = ({
     setCopied(true);
   };
 
-    const handleSendMail = () => {
-      const text = "Hackyabhay@gmail.com";
-          window.location.href =
-            `mailto:${text}?subject=Subject&body=Body`;
-
-    };
+  const handleSendMail = () => {
+    const text = "Hackyabhay@gmail.com";
+    window.location.href = `mailto:${text}?subject=Subject&body=Body`;
+  };
 
   return (
     <div
@@ -95,7 +94,7 @@ export const BentoGridItem = ({
       }}
     >
       {/* add img divs */}
-      <div className={`${id === 6 && "flex justify-center"} h-full`}>
+      <div className={`${id === 6  &&  "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
             <img
@@ -133,25 +132,39 @@ export const BentoGridItem = ({
           )}
         >
           {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
-          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
-            {description}
-          </div>
-          {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
-          {/* remove mb-2 mt-2 */}
-          <div
-            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
-          >
-            {title}
-          </div>
-
+          {id != 3 && (
+            <>
+              <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+                {description}
+              </div>
+              {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
+              {/* remove mb-2 mt-2 */}
+              <div
+                className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
+              >
+                {title}
+              </div>
+            </>
+          )}
           {/* for the github 3d globe */}
           {id === 2 && <GridGlobe />}
 
           {/* Tech stack list div */}
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute justify-center right-2">
-              {/* tech stack lists */}
-              <div className="flex  flex-col gap-3 md:gap-3 ">
+            <div className="my-4">
+              <div className="font-sans font-extralight text-center md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+                {description}
+              </div>
+              {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
+              {/* remove mb-2 mt-2 */}
+              <div
+                className={`font-sans text-lg lg:text-3xl text-center font-bold z-10`}
+              >
+                {title}
+              </div>
+              <div className="flex gap-1 lg:gap-5 w-fit absolute justify-center right-2">
+                {/* tech stack lists */}
+                {/* <div className="flex  flex-col gap-3 md:gap-3 ">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
@@ -172,6 +185,18 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
+              </div> */}
+
+                <div
+                  // remove bg-white dark:bg-black dark:bg-grid-white/[0.05], h-[40rem] to 30rem , md:h-[30rem] are for the responsive design
+                  className="relative rounded-md flex flex-col antialiased justify-center  overflow-hidden"
+                >
+                  <SkillsMovingCard
+                    items={skills}
+                    direction="right"
+                    speed="slow"
+                  />
+                </div>
               </div>
             </div>
           )}

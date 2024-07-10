@@ -128,37 +128,64 @@ export const projects = [
   },
 ];
 
-
-
+export const skills = [
+  {
+    name: "Reactjs",
+  },
+  {
+    name: "Tailwind",
+  },
+  {
+    name: "Nextjs",
+  },
+  {
+    name: "Nodejs",
+  },
+  {
+    name: "Java",
+  },
+  {
+    name: "Kotlin",
+  },
+  {
+    name: "Xml",
+  },
+  {
+    name: "MongoDB",
+  },
+  {
+    name: "Firebase",
+  },
+];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Abhay was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abhay's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abhay is the ideal partner.",
+    name: "Amit Sharma",
+    title: "Tech Solutions India",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Abhay was a transformative experience. His keen eye for design and commitment to quality ensured that our project was a resounding success. Abhay's proactive approach and excellent communication made the process seamless and enjoyable. I highly recommend him for any development needs.",
+    name: "Rahul Verma",
+    title: "Bright Ideas Co.",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Abhay's expertise and passion for development were evident from the start. His ability to understand our vision and bring it to life surpassed our expectations. Abhay's attention to detail and dedication to perfection make him a valuable asset to any project. We look forward to collaborating with him again.",
+    name: "Anjali Mehta",
+    title: "Creative Minds Studio",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Abhay's technical skills and creative problem-solving made a significant impact on our project. His ability to deliver high-quality results under tight deadlines was impressive. Abhay's collaborative spirit and innovative mindset make him an exceptional partner in any development endeavor.",
+    name: "Vikram Rao",
+    title: "NextGen Solutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Abhay was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abhay's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abhay is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
