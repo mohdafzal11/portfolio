@@ -51,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Telegram Bot",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -79,6 +79,7 @@ export const projects = [
     img: "/moyo.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://moyerevamped-sooty.vercel.app/",
+    appType: "web",
   },
   {
     id: 2,
@@ -87,6 +88,7 @@ export const projects = [
     img: "/dongo.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://dongo-ai.vercel.app/",
+    appType: "web",
   },
   {
     id: 3,
@@ -94,15 +96,35 @@ export const projects = [
     des: "The Saviour - Emergency Toolkit is a comprehensive mobile application that provides various emergency features to ensure user safety and security. It offers both online and offline SOS modes, a share journey feature, emergency dialer, rapid SOS activation, manage guardians, share address functionality, and a 'Make India Safe' feature where users can contribute by submitting reviews about their area. The app aims to make the country safer by providing essential emergency tools and enabling users to share their experiences.",
     img: "/saviour1.webp",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/java.svg", "./xml.jpeg"],
-    link: "https://github.com/Hackyabhay007/THE_SAVIOUR_REMASTERED?tab=readme-ov-file",
+    link: "https://play.google.com/store/apps/details?id=com.hackydesk.thesaviour",
+    appType: "android",
   },
   {
     id: 4,
     title: " Driving Companion: Enhancing Safe and Energetic Driving",
     des: "Introducing the Driving Companion app - your ultimate travel partner designed to promote safe driving practices, combat drowsiness, provide real-time alerts, and offer an energetic music experience. With a range of features tailored for your safety and enjoyment, this app aims to create a seamless and engaging driving experience..",
-    img: "/p4.webp",
-    iconLists: ["/java.svg", "/tail.svg", "/ts.svg", "/xml.jpeg", "/gsap.svg"],
+    img: "/p4.jpeg",
+    iconLists: ["/java.svg", "/tail.svg", "/ts.svg", "/xml.jpeg"],
     link: "https://github.com/Hackyabhay007/DRIVING_COMPANION",
+    appType: "android",
+  },
+  {
+    id: 5,
+    title: " DevInfo- Get all device information",
+    des: "DEVINFO is a mobile application that allows users to extract various device information. It provides users with detailed insights into their device's specifications, hardware components, and sensor readings. The app displays information such as manufacturer, model name, RAM, storage, battery level, Android version, camera specifications, processor (CPU) information, GPU information, live sensor readings, and IMEI (up to Android 10 only).",
+    img: "/p5.png",
+    iconLists: ["/java.svg", "/tail.svg", , "/xml.jpeg"],
+    link: "https://github.com/Hackyabhay007/DEV-INFO",
+    appType: "android",
+  },
+  {
+    id: 6,
+    title: "Student Headquarter",
+    des: "Discover a seamless way to navigate the college admissions process and achieve your dreams.",
+    img: "/p6.png",
+    iconLists: ["/re.svg", "/tail.svg", "./ts.svg"],
+    link: "https://65a4b46de5e58ff798b8f93b--comforting-tulumba-d0a237.netlify.app/",
+    appType: "web",
   },
 ];
 

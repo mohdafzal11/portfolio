@@ -65,13 +65,14 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center "
-                  onClick={()=>{
-                       window.open(item.link, "_blank");
+                <div
+                  className="flex justify-center items-center "
+                  onClick={() => {
+                    window.open(item.link, "_blank");
                   }}
                 >
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    {item.appType == "web" ? "Check live site" : "Check App"}
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>

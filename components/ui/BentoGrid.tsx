@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
+import { IoCopyOutline, IoMailOpen } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
@@ -72,6 +72,13 @@ export const BentoGridItem = ({
     setCopied(true);
   };
 
+    const handleSendMail = () => {
+      const text = "Hackyabhay@gmail.com";
+          window.location.href =
+            `mailto:${text}?subject=Subject&body=Body`;
+
+    };
+
   return (
     <div
       className={cn(
@@ -99,8 +106,9 @@ export const BentoGridItem = ({
           )}
         </div>
         <div
-          className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"
-            } `}
+          className={`absolute right-0 -bottom-5 ${
+            id === 5 && "w-full opacity-80"
+          } `}
         >
           {spareImg && (
             <img
@@ -154,7 +162,7 @@ export const BentoGridItem = ({
                   </span>
                 ))}
               </div>
-              <div className="flex flex-col gap-3 md:gap-3">   
+              <div className="flex flex-col gap-3 md:gap-3">
                 {rightLists.map((item, i) => (
                   <span
                     key={i}
@@ -168,18 +176,27 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative">
+            <div className="mt-5 relative flex space-x-4">
               {/* button border magic from tailwind css buttons  */}
               {/* add rounded-md h-8 md:h-8, remove rounded-full */}
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
               {/* add handleCopy() for the copy the text */}
               <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
-                  }`}
+                className={`absolute -bottom-5 right-0 ${
+                  copied ? "block" : "block"
+                }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
+
+              <MagicButton
+                title="Send Mail"
+                icon={<IoMailOpen />}
+                position="left"
+                handleClick={handleSendMail}
+                otherClasses="!bg-[#161A31]"
+              />
 
               <MagicButton
                 title={copied ? "Email is Copied!" : "Copy my email address"}
