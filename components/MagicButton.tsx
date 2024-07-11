@@ -35,7 +35,7 @@ const MagicButton = ({
       >
         {position === "left" && icon}
         {title}
-        {position === "right" && icon}
+        {/* {position === "right" && icon} */}
       </span>
     </button>
   );
